@@ -1,0 +1,20 @@
+<!--  display the question you ask your coach as well as his answer -->
+<h3>Stupid Coaching</h3>
+
+<ul>
+  <div class="you">
+    <li><%= @question %></li>
+    <li>- You</li>
+  </div>
+  <div class="coach">
+    <li><%= @answer %></li>
+    <li>- Your coach</li>
+  </div>
+</ul>
+
+
+<%= link_to "Ask a new question", ask_path %>
+
+
+
+
